@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
-<!-- Generated 26/03/2019 03:59:20 PM by Hibernate Tools 4.3.1 -->
+<!-- Generated Apr 8, 2019 3:27:54 PM by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="modelo.Comentarista" table="comentarista" optimistic-lock="version">
+    <class name="modelo.Comentarista" table="comentarista">
         <id name="idcomentarista" type="int">
             <column name="idcomentarista" />
-            <generator class="assigned" />
+            <generator class="assigned"></generator>
         </id>
         <property name="nombre" type="string">
             <column name="nombre" not-null="true" />

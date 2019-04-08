@@ -3,10 +3,10 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <!-- Generated Apr 8, 2019 3:27:54 PM by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="modelo.Comentario" table="comentario">
+    <class name="controlador.Comentario" table="comentario" optimistic-lock="version">
         <id name="idcomentario" type="int">
             <column name="idcomentario" />
-            <generator class="assigned"></generator>
+            <generator class="assigned" />
         </id>
         <property name="contenido" type="string">
             <column name="contenido" not-null="true" />

@@ -52,5 +52,11 @@ Contributor(s):
     <mapping resource="modelo/Califica.hbm.xml"/>
     <mapping resource="modelo/Marcador.hbm.xml"/>
     <mapping resource="modelo/Informador.hbm.xml"/>
+    <mapping resource="controlador/Marcador.hbm.xml"/>
+    <mapping resource="controlador/Informador.hbm.xml"/>
+    <mapping resource="controlador/Comentario.hbm.xml"/>
+    <mapping resource="controlador/Califica.hbm.xml"/>
+    <mapping resource="controlador/Tema.hbm.xml"/>
+    <mapping resource="controlador/Comentarista.hbm.xml"/>
   </session-factory>
 </hibernate-configuration>

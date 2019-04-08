@@ -3,16 +3,16 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <!-- Generated Apr 8, 2019 3:27:54 PM by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="modelo.Informador" table="informador">
-        <id name="correo" type="string">
-            <column name="correo" />
-            <generator class="assigned"></generator>
+    <class name="controlador.Tema" table="tema" optimistic-lock="version">
+        <id name="idtema" type="int">
+            <column name="idtema" />
+            <generator class="assigned" />
         </id>
         <property name="nombre" type="string">
             <column name="nombre" not-null="true" />
         </property>
-        <property name="contrasenia" type="string">
-            <column name="contrasenia" not-null="true" />
+        <property name="informador" type="string">
+            <column name="informador" not-null="true" />
         </property>
     </class>
 </hibernate-mapping>

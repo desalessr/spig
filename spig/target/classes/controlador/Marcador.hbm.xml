@@ -3,10 +3,10 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <!-- Generated Apr 8, 2019 3:27:54 PM by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="modelo.Marcador" table="marcador">
+    <class name="controlador.Marcador" table="marcador" optimistic-lock="version">
         <id name="idmarcador" type="int">
             <column name="idmarcador" />
-            <generator class="assigned"></generator>
+            <generator class="assigned" />
         </id>
         <property name="descripcion" type="string">
             <column name="descripcion" not-null="true" />

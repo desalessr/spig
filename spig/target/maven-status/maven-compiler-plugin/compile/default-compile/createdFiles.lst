@@ -1,12 +1,18 @@
 modelo/InformadorDAO.class
 modelo/Informador.class
+controlador/Comentarista.class
 controlador/CrearComentario.class
 controlador/RegistrarInformador.class
 modelo/Tema.class
 modelo/Comentario.class
 auxiliares/SendEmail.class
+controlador/Marcador.class
 modelo/Marcador.class
 modelo/HibernateUtil.class
+controlador/Califica.class
+controlador/CalificaId.class
+controlador/Tema.class
+controlador/Comentario.class
 modelo/CalificaId.class
 modelo/MarcadorDAO.class
 modelo/Comentarista.class
@@ -14,3 +20,4 @@ modelo/AbstractDAO.class
 modelo/ComentarioDAO.class
 auxiliares/FileToStringer.class
 modelo/Califica.class
+controlador/Informador.class

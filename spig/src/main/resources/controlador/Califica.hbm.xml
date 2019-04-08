@@ -3,8 +3,8 @@
 "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <!-- Generated Apr 8, 2019 3:27:54 PM by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-    <class name="modelo.Califica" table="califica">
-        <composite-id name="id" class="modelo.CalificaId">
+    <class name="controlador.Califica" table="califica" optimistic-lock="version">
+        <composite-id name="id" class="controlador.CalificaId">
             <key-property name="marcador" type="int">
                 <column name="marcador" />
             </key-property>

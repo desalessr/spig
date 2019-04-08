@@ -33,7 +33,7 @@
     <dependency>
     <groupId>org.primefaces</groupId>
     <artifactId>primefaces</artifactId>
-    <version>6.2</version>
+    <version>5.0</version>
     </dependency>
     <dependency>
     <groupId>org.primefaces.extensions</groupId>
@@ -41,6 +41,17 @@
     <version>6.2.2</version>
     </dependency>
     <dependency>
+        <groupId>com.sun.mail</groupId>
+        <artifactId>javax.mail</artifactId>
+        <version>1.6.1</version>
+    </dependency>
+        <dependency>
+            <groupId>ichpool</groupId>
+            <artifactId>spig</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
     <groupId>javax</groupId>
     <artifactId>javaee-web-api</artifactId>
     <version>7.0</version>

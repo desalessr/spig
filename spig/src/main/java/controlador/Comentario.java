@@ -1,5 +1,5 @@
-package modelo;
-// Generated 26/03/2019 03:59:19 PM by Hibernate Tools 4.3.1
+package controlador;
+// Generated Apr 8, 2019 3:27:52 PM by Hibernate Tools 4.3.1
 
 
 
