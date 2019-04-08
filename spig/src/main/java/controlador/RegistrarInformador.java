@@ -5,6 +5,7 @@
  */
 package controlador;
 
+//import javax.mail.MessagingException;
 import auxiliares.FileToStringer;
 import modelo.InformadorDAO;
 import modelo.Informador;
@@ -12,7 +13,7 @@ import auxiliares.SendEmail;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.faces.bean.ManagedBean;
-import javax.mail.MessagingException;
+
 
 import java.util.Random;
 import javax.faces.application.FacesMessage;
